@@ -21,27 +21,47 @@ body {
 }
 
 .title-box {
-    width: 852px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 24px;
+    width: 855px;
+    border: 2px solid red;
 }
 
 .section-title {
+    margin: 0;
+    padding: 0px;
+    border: 2px solid red;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
-    letter-spacing: 0%;
     text-align: center;
 }
 
 .section-description {
+    margin: 0;
+    padding: 0px;
+    border: 2px solid red;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
     text-align: center;
+}
+
+.whychoose,
+.inspiration {
+    margin: 74px 0px 0px 0px;
+    gap: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Navigation-bar styles */
@@ -137,15 +157,9 @@ header {
 
 /* Banner part end */
 
-/* Why Web Development section style starts */
-.whychoose {
-    margin: 74px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
+
+/* Why Web Development section style starts */
 .whychoose .choosing-container {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -178,9 +192,11 @@ header {
     padding: 48px;
     gap: 40px;
 }
-.card-direction-row-reverse >.content-container{
+
+.card-direction-row-reverse>.content-container {
     width: 477px;
 }
+
 .card-direction-row>.content-container {
     width: 477px;
 }
@@ -207,6 +223,7 @@ header {
 }
 
 .content-container>.card-btn {
+    cursor: pointer;
     margin-top: 20px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -228,9 +245,119 @@ header {
     align-items: end;
     width: 274px;
 }
+
 .card-direction-row-reverse>.image-container {
     display: flex;
     justify-content: end;
     align-items: end;
     width: 274px;
 }
+
+/* Why Web Development section style End */
+
+/* Inspiration section style starts */
+.inspiration>.embed {
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.embed>iframe {
+    border-radius: 8px;
+}
+
+/* Inspiration Section style END */
+
+
+/* My Current Target Section Style Starts */
+.target {
+    border: 2px solid red;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 2px solid red;
+    gap: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+}
+
+.icon-boxes {
+    border: 2px solid red;
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.box {
+    width: 285px;
+    padding: 40px;
+    display: block;
+}
+
+.icon-box-title {
+    margin: 0;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+}
+
+.box>img {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+
+.icon-box-button {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.icon-box-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.icon-box-html {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.icon-box-css {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.icon-box-js {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+/* My Current Target Section Style END */
+
+/* I need Support Section Style Start */
+/* I need Support Section Style End */

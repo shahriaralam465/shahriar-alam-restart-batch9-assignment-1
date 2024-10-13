@@ -20,6 +20,30 @@ body {
     cursor: pointer;
 }
 
+.title-box {
+    width: 852px;
+}
+
+.section-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
 /* Navigation-bar styles */
 header {
     background: #ffffff;
@@ -63,7 +87,7 @@ header {
     border: 3px dashed gray;
 }
 
-.banner>.banner-container {
+.banner-container {
     width: 998px;
     display: flex;
     flex-direction: column;
@@ -109,4 +133,104 @@ header {
     letter-spacing: 0%;
     text-align: center;
     cursor: pointer;
+}
+
+/* Banner part end */
+
+/* Why Web Development section style starts */
+.whychoose {
+    margin: 74px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whychoose .choosing-container {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+}
+
+.card-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.card-parent>.card-direction-row {
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    gap: 40px;
+}
+
+.card-parent>.card-direction-row-reverse {
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 48px;
+    gap: 40px;
+}
+.card-direction-row-reverse >.content-container{
+    width: 477px;
+}
+.card-direction-row>.content-container {
+    width: 477px;
+}
+
+.content-container>.content-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.content-container>.content-description {
+    margin-top: -20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.content-container>.card-btn {
+    margin-top: 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+
+}
+
+.card-direction-row>.image-container {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 274px;
+}
+.card-direction-row-reverse>.image-container {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 274px;
 }

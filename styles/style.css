@@ -27,13 +27,11 @@ body {
     align-items: center;
     gap: 24px;
     width: 855px;
-    border: 2px solid red;
 }
 
 .section-title {
     margin: 0;
     padding: 0px;
-    border: 2px solid red;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
@@ -45,7 +43,6 @@ body {
 .section-description {
     margin: 0;
     padding: 0px;
-    border: 2px solid red;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -271,7 +268,6 @@ header {
 
 /* My Current Target Section Style Starts */
 .target {
-    border: 2px solid red;
     margin-top: 150px;
     display: flex;
     flex-direction: column;
@@ -280,7 +276,6 @@ header {
 }
 
 .container {
-    border: 2px solid red;
     gap: 48px;
     display: flex;
     flex-direction: column;
@@ -290,7 +285,6 @@ header {
 }
 
 .icon-boxes {
-    border: 2px solid red;
     gap: 24px;
     display: flex;
     flex-direction: row;
@@ -357,7 +351,85 @@ header {
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
 }
+
 /* My Current Target Section Style END */
 
 /* I need Support Section Style Start */
+.support {
+    margin: 50px 0px 80px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.support .section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 64px 48px;
+    width: 1044px;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url('../assets/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-box>h3 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    margin: 0;
+}
+
+.title-box>.white-desctipiton {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.form {
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:16px;
+}
+
+.form>input[type=text] {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px;
+    width: 500px;
+    color: rgb(0, 0, 0);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+
+.form .submit-btn {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: 1px solid white;
+    padding: 17px 20px;
+    cursor: pointer;
+}
 /* I need Support Section Style End */
